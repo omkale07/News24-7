@@ -1,0 +1,58 @@
+body{
+background: linear-gradient(135deg, #a8edea, #fed6e3);
+color: #333;
+font-family: 'Poppins', 'Roboto', sans-serif !important;
+box-sizing: border-box;
+} 
+
+/* Navbar */
+
+nav{
+height: 4rem;
+box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+position: fixed;  
+}
+
+.nav-logo{
+font-weight: 700;
+color: black;
+}
+
+.nav-logo span{
+color: #0b7285;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.btn-color{
+background-color: white;
+outline: black;
+}
+
+.btn-color:hover{
+background-color: aqua;
+color: white;
+}
+
+
+/* About */
+
+#about{
+    margin-top: 4rem;
+}
+
+.about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading span{
+    color: aqua;
+}
+
+.about-text{
+    margin: 10px 10rem;
+    text-align: center; 
+    font-size: 1.2rem;
+}
