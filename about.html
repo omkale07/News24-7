@@ -16,6 +16,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="news.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -63,7 +64,12 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox"
+   role="switch" id="switchCheckDefault" onclick="toggleDark()">
+  <label class="form-check-label" for="switchCheckDefault">Dark Mode</label>
+</div>
+          <!-- <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -71,7 +77,7 @@
               aria-label="Search"
             />
             <button class="btn btn-color" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
@@ -79,7 +85,7 @@
   <!-- About section -->
   <section id="about" class="p-4">
     <div class="about-heading text-center mb-3">
-      <h2 class="fw-bold" style="color: #0b7285;">About News 24/7</h2>
+      <h2 class="fw-bold A-heading" style="color: #0b7285;">About News 24/7</h2>
     </div>
 
     <div class="about-text mx-auto" style="max-width: 900px; line-height: 1.7; font-size: 16px; color: #333;">
@@ -106,7 +112,7 @@
         favorite news segments effortlessly — from <strong>local updates to global events</strong>, all in one place.
       </p>
 
-      <p class="text-center mt-4 fw-semibold" style="color: #0b7285;">
+      <p class="text-center mt-4 fw-semibold B-text" style="color: #0b7285;">
         Stay connected, stay updated, and never miss what matters.<br>
         Because at <strong>News24/7</strong>, we believe that <strong>information empowers.</strong>
       </p>

@@ -19,7 +19,7 @@ color: black;
 }
 
 .nav-logo span{
-color: #0b7285;
+color: aqua;
 font-size: 1rem;
 font-weight: 500;
 }
@@ -55,4 +55,50 @@ color: white;
     margin: 10px 10rem;
     text-align: center; 
     font-size: 1.2rem;
+}
+
+/* DARK MODE */
+.dark nav {
+  background-color:grey !important;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4) !important;
+}
+
+
+.dark nav * {
+  color: white !important;
+}
+
+
+.dark .dropdown-menu {
+  background-color: #222 !important;
+}
+
+.dark .dropdown-item {
+  color: white !important;
+}
+
+.dark .dropdown-item:hover {
+  background-color: #333 !important;
+}
+
+.dark .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.dark .about-text{
+  background: #1A1A1A;
+  color: #fff !important;
+}
+
+.dark .A-heading{
+  color: aqua !important;
+}
+
+.dark .B-text{
+  color: aqua !important;
+}
+
+.dark{
+  background: #1A1A1A;
+  color: #fff !important;
 }

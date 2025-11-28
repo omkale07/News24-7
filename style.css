@@ -9,7 +9,6 @@ nav{
 height: 4rem;
 box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
 position: fixed;
-
     
 }
 
@@ -19,9 +18,44 @@ color: black;
 }
 
 .nav-logo span{
-color: #0b7285;
+color: aqua;
 font-size: 1rem;
 font-weight: 500;
+}
+
+/* DARK MODE */
+.dark nav {
+  background-color:grey !important;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4) !important;
+}
+
+
+.dark nav * {
+  color: white !important;
+}
+
+
+.dark .dropdown-menu {
+  background-color: #222 !important;
+}
+
+.dark .dropdown-item {
+  color: white !important;
+}
+
+.dark .dropdown-item:hover {
+  background-color: #333 !important;
+}
+
+.dark .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+
+.dark{
+  background: #1A1A1A;
+  color: #fff;
 }
 
 .btn-color{
@@ -45,7 +79,7 @@ color: white;
 }
 
 .top-heading h2 span{
-    color: #0b7285;
+    color: aqua;
 }
 
 .cards{
