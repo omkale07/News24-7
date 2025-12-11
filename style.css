@@ -23,6 +23,10 @@ font-size: 1rem;
 font-weight: 500;
 }
 
+.switch{
+  margin-right: 15px;
+}
+
 /* DARK MODE */
 .dark nav {
   background-color:grey !important;
